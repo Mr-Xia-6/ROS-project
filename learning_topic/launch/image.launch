@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="learning_topic" type="image_node_a" name="talker" output="screen" />
+    <node pkg="learning_topic" type="image_node_b" name="listener" output="screen" /> 
+</launch>

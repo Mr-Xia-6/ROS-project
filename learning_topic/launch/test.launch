@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="sim"/>
+    <node pkg="learning_topic" type="velocity_publisher" name="talker" output="screen" />
+    <node pkg="learning_topic" type="pose_subscriber" name="listener" output="screen" /> 
+</launch>
+
